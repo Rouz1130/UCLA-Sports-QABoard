@@ -1,17 +1,18 @@
+
 {{#if addNewAnswer}}
   <form>
     <div class="input">
-      <span class="inputs">Answer:</span>
-        {{input value=ans id="ans" class="form-group" placeholder="Answer"}}
+      <span class="inputs">Answer</span>
+        {{input value=answers id="answers" class="form-group" placeholder="Enter Answer"}}
     </div>
     <br>
     <div class="input">
       <span class="inputs">By</span>
-        {{input value=name id="name" class="form-group" placeholder="Name"}}
+        {{input value=name id="name" class="form-group" placeholder="name"}}
     </div>
     <br>
-    <button class="btnS" {{action 'save1'}}>Submit Answer</button>
+    <button class="btnS" {{action 'save4'}}>Submit Answer</button>
   </form>
 {{else}}
-  <button class="btnS" {{action 'answerFormShow'}}>Question</button>
+  <button class="btnS" {{action 'answerFormShow'}}>Submit an Answer</button>
 {{/if}}
