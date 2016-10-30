@@ -1,0 +1,17 @@
+{{#if addNewAnswer}}
+  <form>
+    <div class="input">
+      <span class="inputs">Answer:</span>
+        {{input value=ans id="ans" class="form-group" placeholder="Answer"}}
+    </div>
+    <br>
+    <div class="input">
+      <span class="inputs">By</span>
+        {{input value=name id="name" class="form-group" placeholder="Name"}}
+    </div>
+    <br>
+    <button class="btnS" {{action 'save1'}}>Submit Answer</button>
+  </form>
+{{else}}
+  <button class="btnS" {{action 'answerFormShow'}}>Question</button>
+{{/if}}
