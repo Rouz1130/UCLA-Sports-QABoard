@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Bob Costas",
+    "question": "Who will win the NBA Finals",
+    "answer": "Warriors"
+  }, {
+    "author": "Tommy Hilfiger",
+    "question": "Whats the best Jacket",
+    "answer": "Bomber"
+  }, {
+    "author": "Anderson Cooper",
+    "question": "Who will win the Election",
+    "answer": "Hillary Clinton"
+  }]
+}
