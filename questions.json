@@ -10,5 +10,12 @@
     "query": "What game is on tonite?",
     "author": "Mike",
     "notes": "baseball is so boring"
-  }]
+  }],
+  "answers": [{
+    "name": "Bob",
+    "answer": "Space is infinite."
+  }, {
+    "name": "Steve",
+    "answers": "Enjoy the sunny weather."
+    }]
 }
