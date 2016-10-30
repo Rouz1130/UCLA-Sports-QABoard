@@ -2,21 +2,21 @@
   <form>
     <div class="input">
       <span class="inputs">Question</span>
-        {{input value=question id="query" class="form-group" placeholder="Enter Question"}}
+        {{input value=query id="query" class="form-group" placeholder="question.query"}}
     </div>
     <br>
     <div class="input">
       <span class="inputs">Asked By:</span>
-        {{input value=author id="author" class="form-group" placeholder="Name"}}
+        {{input value=author id="author" class="form-group" placeholder="question.author"}}
     </div>
     <br>
     <div class="input">
       <span class="inputs">Notes:</span>
-        {{input value=notes id="notes" class="form-group" placeholder="Notes"}}
+        {{input value=notes id="notes" class="form-group" placeholder="question.notes"}}
     </div>
     <br>
     <button class="btnS" {{action 'update' question}}>Post</button>
   </form>
 {{else}}
-  <button class="btnS" {{action 'editQuestionShow'}}>Submit Question</button>
+  <button class="btnS" {{action 'editQuestionShow'}}>Edit</button>
 {{/if}}
