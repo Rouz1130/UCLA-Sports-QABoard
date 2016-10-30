@@ -12,10 +12,10 @@
     "notes": "baseball is so boring"
   }],
   "answers": [{
-    "name": "Bob",
-    "answer": "Space is infinite."
+    "name": "Mike",
+    "answers": "Go to a baseball game."
   }, {
-    "name": "Steve",
-    "answers": "Enjoy the sunny weather."
+    "name": "David",
+    "answers": "the universe is infinite"
     }]
 }
