@@ -1,9 +1,11 @@
+
 <h1>Questions</h1>
 <hr>
 <ul>
   {{#each model as |question|}}
     <li class="listA">{{question.author}} asks:</li>
-    <li class="listQ">{{#link-to 'question-display' question.id}}{{question.question}}{{/link-to}}</li>
+    <li class="listQ">{{#link-to 'question-display' query.id}}{{question.question}}{{/link-to}}</li>
     <hr>
   {{/each}}
 </ul>
+{{new-question save2="save3"}}
