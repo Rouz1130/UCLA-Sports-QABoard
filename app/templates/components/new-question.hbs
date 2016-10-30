@@ -1,1 +1,21 @@
-{{yield}}
+{{#if addNewQuestion}}
+  <form>
+    <div class="input-group input-group">
+      <span class="input-group-addon">Question:</span>
+        <input type="text" class="form-control" placeholder="Enter Question">
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Asked By:</span>
+        <input type="text" class="form-control" placeholder="Ball">
+    </div>
+    <br>
+    <div class="input-group input-group">
+      <span class="input-group-addon">Notes:</span>
+        <input type="text" class="form-control" placeholder="topics">
+    </div>
+    <button class="btn btn-default btn-block">Submit Question</button>
+  </form>
+{{else}}
+  <button class="btn btn-default btn-block">Submit a Question</button>
+{{/if}}
