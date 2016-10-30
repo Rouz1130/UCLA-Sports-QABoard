@@ -1,14 +1,14 @@
 { "questions": [{
-    "author": "Bob Costas",
-    "question": "Who will win the NBA Finals",
-    "answer": "Warriors"
+    "query": "Whats the weahter like?",
+    "author": "Rouz",
+    "notes": "Syntax is very important in coding"
   }, {
-    "author": "Tommy Hilfiger",
-    "question": "Whats the best Jacket",
-    "answer": "Bomber"
+    "query": "What is a black hole",
+    "author": "Bob",
+    "notes": "space"
   }, {
-    "author": "Anderson Cooper",
-    "question": "Who will win the Election",
-    "answer": "Hillary Clinton"
+    "query": "What game is on tonite?",
+    "author": "Mike",
+    "notes": "baseball is so boring"
   }]
 }
