@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('question-display', {path: '/question-display/:question_id'});
   this.route('about');
   this.route('contact');
+  this.route('fave-list');
 });
 
 export default Router;
