@@ -1,4 +1,5 @@
 
 
-<li class="index-author">{{question.author}} asks:</li>
+<li class="index-author">{{question.author}} asks:{{popuar question}}</li>
 <li class="index-question">{{#link-to 'question-display' question.id}}{{question.query}}{{/link-to}}<span class="edit-form">{{question-edit question=question update="update"}}</span></li>
+<hr>
