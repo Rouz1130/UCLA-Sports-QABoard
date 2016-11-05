@@ -1,12 +1,13 @@
-  <p>{{model.author}} asks:</p>
-  <h2>{{model.query}}</h2>
-  <p>{{model.notes}}</p>
-  <hr>
-  <br>
-  <ul>
-    {{#each model.answers as |answer|}}
+<p>{{model.author}} asks:</p>
+<h2>{{model.query}}</h2>
+<p>{{model.notes}}</p>
+<hr>
+<ul>
+  {{#each model.answers as |answer|}}
     {{answer-tile answer=answer}}
-    {{/each}}
-  </ul>
+    <li class="computed">Or, to put it another way: <span class="sentence">{{answer.answerSentence}}</span></li>
+    <hr>
+  {{/each}}
+</ul>
 
-  {{answer-new save5="save6" question=model}}
+{{answer-new save5="save6" question=model}

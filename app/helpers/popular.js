@@ -6,7 +6,7 @@ export function popular(params/*, hash*/) {
   if (answer.get('answers').get('length') === 0) {
     return Ember.String.htmlSafe('<span class="zero-response">(awaiting response)</span>');
   } else if (answer.get('answers').get('length') <= 3) {
-    return Ember.String.htmlSafe('<span class="some-response">(looking for a few more responses)</span>');
+    return Ember.String.htmlSafe('<span class="some-response">(looking for 3 or more responses)</span>');
   }
 }
 
