@@ -1,9 +1,11 @@
 
-<h2>Ask your Question</h2>
-<hr>
 <ul>
   {{#each model.questions as |question|}}
     {{question-tile question=question update="update"}}
   {{/each}}
 </ul>
 {{new-question save2="save3"}}
+
+<hr>
+
+{{display-list}}
