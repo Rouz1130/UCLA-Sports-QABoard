@@ -1,19 +1,19 @@
 { "questions": [{
-    "query": "Whats the weahter like?",
-    "author": "Rouz",
-    "notes": "Syntax is very important in coding"
+    "query": "Who is the best athlete of all time?",
+    "author": "Bob Costas",
+    "notes": "Sports"
   }, {
-    "query": "What is a black hole",
-    "author": "Bob",
-    "notes": "space"
+    "query": "What is a Black Hole?",
+    "author": "Stephen Hawking",
+    "notes": "Space"
   }, {
-    "query": "What game is on tonite?",
-    "author": "Mike",
-    "notes": "baseball is so boring"
+    "query": "Whats the most boring sports game?",
+    "author": "Bill Simmons",
+    "notes": "Baseball"
   }],
   "answers": [{
-    "name": "Mike",
-    "answers": "Go to a baseball game."
+    "name": "Peter",
+    "answers": "Michael Jordan."
   }, {
     "name": "David",
     "answers": "the universe is infinite"

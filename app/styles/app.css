@@ -1,12 +1,8 @@
-.listQ {
-  list-style-type: none;
-}
+body {
+  background: url("http://world.fantasticimago.com/wp-content/uploads/2013/12/Cool-Light-Grey-background-fantastic-imago-creative-studio-video-production.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 
-.list-A{
-  font-size: 2em;
-  list-style-type: none;
-}
-
-.btnS {
-  
 }

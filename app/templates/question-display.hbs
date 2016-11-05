@@ -1,3 +1,4 @@
+
 <p>{{model.author}} asks:</p>
 <h2>{{model.query}}</h2>
 <p>{{model.notes}}</p>
@@ -5,9 +6,9 @@
 <ul>
   {{#each model.answers as |answer|}}
     {{answer-tile answer=answer}}
-    <li class="computed">Or, to put it another way: <span class="sentence">{{answer.answerSentence}}</span></li>
+    <li class="computed">Answer: <span class="sentence">{{answer.answerSentence}}</span></li>
     <hr>
   {{/each}}
 </ul>
 
-{{answer-new save5="save6" question=model}
+{{answer-new save5="save6" question=model}}
