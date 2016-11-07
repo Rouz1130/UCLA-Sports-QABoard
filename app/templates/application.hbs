@@ -4,16 +4,23 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <h4 class="navbar-brand banner-name">Message Fourm</h4>
+          <h4 class="navbar-brand banner-name"></h4>
+          <img class="uc" style="max-width:100px; margin-top: -7px;"
+               src="http://content.sportslogos.net/logos/35/882/full/2671.png">
+
+
         </div>
         <ul class="nav navbar-nav">
-          <li><a class="glyphicon glyphicon-home" href="/"></a></li>
-          <li>{{#link-to 'about'}}About{{/link-to}}</li>
-         <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-         <li>{{#link-to 'fave-list'}}Favorite Questions{{/link-to}}</li>
+          <li class="tanya"><a class="glyphicon glyphicon-home" href="/"></a></li>
+          <li class="tanya">{{#link-to 'about'}}About{{/link-to}}</li>
+         <li class="tanya">{{#link-to 'contact'}}Contact{{/link-to}}</li>
+         <li class="tanya">{{#link-to 'fave-list'}}Favorite Questions{{/link-to}}</li>
       </ul>
       </div>
     </nav>
   </header>
-  {{outlet}}
 </div>
+    <h3>Go Bruins! Go!: UCLA Message Board</h3>
+    <hr>
+    <br>
+  {{outlet}}
