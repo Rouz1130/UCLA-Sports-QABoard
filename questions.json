@@ -1,19 +1,19 @@
 { "questions": [{
-    "query": "Who is the best athlete of all time?",
-    "author": "Bob Costas",
+    "query": "Who is the best athlete in UCLA athletics?",
+    "author": "Bll Walton",
     "notes": "Sports"
   }, {
-    "query": "What is a Black Hole?",
-    "author": "Stephen Hawking",
-    "notes": "Space"
+    "query": "How many games in a row did John Wooden basketball team win?",
+    "author": "Ed Obannon",
+    "notes": "Basketball"
   }, {
-    "query": "Whats the most boring sports game?",
-    "author": "Bill Simmons",
-    "notes": "Baseball"
+    "query": "How many games a year does the mens baskeball team play?",
+    "author": "Dylan Mckay",
+    "notes": "Basketball"
   }],
   "answers": [{
     "name": "Peter",
-    "answers": "Michael Jordan."
+    "answers": "Bill walton."
   }, {
     "name": "David",
     "answers": "the universe is infinite"
